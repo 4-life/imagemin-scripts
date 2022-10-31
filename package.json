@@ -1,0 +1,20 @@
+{
+  "name": "imagemin-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "WEBP=true node index.js",
+    "minify": "node index.js"
+  },
+  "author": "Pavel Ovchinnikov",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^7.0.0",
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webp": "^7.0.0"
+  }
+}
